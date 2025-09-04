@@ -20,7 +20,7 @@
 <style lang="scss" scoped>
 .coming-soon {
     background: var(--off-white);
-    height: 100vh;
+    height: 100dvh;
     padding: 1rem;
 
     &__inner {
