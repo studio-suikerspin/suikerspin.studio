@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+:root {
+    --accent-pink: #EF91E5;
+    --accent-yellow: #F1EFB7;
+    --accent-bordeaux: #641133;
+    --off-white: #FEEFED;
+}
+
+@theme {
+    --color-accent-pink: var(--accent-pink);
+    --color-accent-yellow: var(--accent-yellow);
+    --color-accent-bordeaux: var(--accent-bordeaux);
+    --color-off-white: var(--off-white);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'After', sans-serif;
+}
+
+.title-font {
+    font-family: 'After', sans-serif;
+}
+
+body {
+    font-family: 'Gill Sans', sans-serif;
+}
